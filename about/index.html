@@ -2,12 +2,18 @@
 layout: default
 title: About
 ---
+
+{% include header.html %}
+
 <!-- Blockquote -->
 <div class="section">
 	<div class="container">
 		<div class="row text-center">
 			<div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
-				<blockquote class="blockquote-lg">Cloud Arena template is focusing to presenting your online service. It is easy to <strong>customize</strong> to your brand. Layout nad action buttons are placed to <strong>navigate your visitors</strong> to register and try your online service.</blockquote>
+				<blockquote class="blockquote-lg">
+					We wanted to make it easy for website owners to use <strong>cutting edge open source tools</strong> to achieve faster surfing. Here are some of the tools we use. - Per André
+
+				</blockquote>
 			</div>
 		</div>
 	</div>
@@ -21,7 +27,7 @@ title: About
 				<img src="img/feature-icon-1.png" alt="#" width="185" height="243" class="img-responsive">
 			</div>
 			<div class="col-xs-6 col-md-5 col-md-offset-1 col-lg-4 col-lg-offset-1 i text">
-				<h2>Boostrap <strong>v 3.3</strong></h2>
+				<h2>NGINX <strong>v 3.3</strong></h2>
 				<p>Template is based on newest version of Bootstrap. You can use all bootstrap features like grid, buttons, tables etc. etc..</p>
 				<a href="#" title="#" class="more">More <span class="sprite icon-arrow"></span></a>
 			</div>
@@ -37,7 +43,7 @@ title: About
 				<img src="img/feature-icon-2.png" alt="#" width="207" height="208" class="img-responsive">
 			</div>
 			<div class="col-xs-6 col-md-5 col-md-offset-1 col-lg-4 col-lg-offset-1 i text">
-				<h2>Customizable <strong>options</strong></h2>
+				<h2>Google PageSpeed</h2>
 				<p>You can easily change color scheme or template. Template blocks can be rearagned as you need. You can follow documentation to see all features and possibilities</p>
 				<a href="#" title="#" class="more">More <span class="sprite icon-arrow"></span></a>
 			</div>
@@ -53,7 +59,7 @@ title: About
 				<img src="img/feature-icon-3.png" alt="#" width="221" height="234" class="img-responsive">
 			</div>
 			<div class="col-xs-6 col-md-5 col-md-offset-1 col-lg-4 col-lg-offset-1 i text">
-				<h2>Great <strong>icons</strong></h2>
+				<h2>Varnish</h2>
 				<p>With this template you will get all custom fully couloured icons. You can choose icon as you need for better presentation of <strong>your content</strong> and your features..</p>
 				<a href="icons.html" title="#" class="more">More <span class="sprite icon-arrow"></span></a>
 			</div>
@@ -61,7 +67,23 @@ title: About
 	</div>
 </section>
 
-<!-- Stats -->
+<!-- Features -->
+<section class="section aboutFeatures">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-6 col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 i image">
+				<img src="img/feature-icon-2.png" alt="#" width="207" height="208" class="img-responsive">
+			</div>
+			<div class="col-xs-6 col-md-5 col-md-offset-1 col-lg-4 col-lg-offset-1 i text">
+				<h2>Node.js</h2>
+				<p>You can easily change color scheme or template. Template blocks can be rearagned as you need. You can follow documentation to see all features and possibilities</p>
+				<a href="#" title="#" class="more">More <span class="sprite icon-arrow"></span></a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Stats
 <div class="section stats">
 	<div class="container">
 		<div class="row">
@@ -92,8 +114,9 @@ title: About
 		</div>
 	</div>
 </div>
+-->
 
-<!-- Meet our team -->
+<!-- Meet our team
 <div class="section ourTeam">
 	<div class="container">
 		<header class="text-center">
@@ -184,11 +207,6 @@ title: About
 		</div>
 	</div>
 </div>
+-->
 
-<!-- Business theme -->
-<div class="section businessTheme">
-	<div class="container text-center">
-		<h2>Do you need beautiful business theme?</h2>
-		<a href="#" title="#" class="btn btn-lg btn-yellow btn-effect">Purchase CloudArena <span>$15 only</span></a>
-	</div>
-</div>
+{% include callout.html %}
