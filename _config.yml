@@ -1,0 +1,12 @@
+# Site settings
+title: WebCachr
+email: perandre@front.no
+description: > # this means to ignore newlines until "baseurl:"
+  Website caching made easy. Fast, optimized sites with a few clicks!
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://webcachr.com" # the base hostname & protocol for your site
+twitter_username: frontkom
+github_username:  front
+
+# Build settings
+markdown: kramdown
